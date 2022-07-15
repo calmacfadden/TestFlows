@@ -44,6 +44,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - run: npm install @openzeppelin/test-helpers
+    - run: npm install @nomicfoundation/hardhat-toolbox
     - run: npx hardhat test
 
